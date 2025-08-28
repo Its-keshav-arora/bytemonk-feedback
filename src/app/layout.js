@@ -14,6 +14,9 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "ByteMonk Feedback Forum",
   description: "This is the ByteMonk's official feedback form website",
+  icons : {
+    icon: "/logo.png",
+  }
 };
 
 export default function RootLayout({ children }) {
