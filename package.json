@@ -2,13 +2,14 @@
   "name": "bytemonk",
   "version": "0.1.0",
   "private": true,
-  "type":"module",
+  "type": "module",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
     "start": "next start"
   },
   "dependencies": {
+    "dotenv": "^17.2.1",
     "next": "15.5.2",
     "pg": "^8.16.3",
     "postcss": "^8.5.6",
